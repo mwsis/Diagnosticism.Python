@@ -11,7 +11,7 @@ d.abort("default abort", do_exit=False)
 d.abort("default abort with default TRAILING_PROMPT", do_exit=False, trailing_prompt=True)
 
 print("setting default trailing prompt")
-d.conrep.set_default_trailing_prompt('use --help to show usage')
+d.contingent_reporting.set_default_trailing_prompt('use --help to show usage')
 
 d.abort("default abort with default TRAILING_PROMPT", do_exit=False, trailing_prompt=True)
 
