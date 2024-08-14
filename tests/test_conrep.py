@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 
 from diagnosticism.conrep import abort
 from diagnosticism.conrep import conrep
